@@ -23,7 +23,8 @@ The `gcloud` CLI is the primary tool for managing your Google Cloud resources fr
 
 1.  **Download the Google Cloud SDK installer:**
     Navigate to the official Google Cloud SDK download page ([https://cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install)) and download the installer for Windows.
-![[1.png]]
+![1](https://github.com/user-attachments/assets/46f73b11-88cb-4fa3-b017-b077a4c1a45a)
+
 2.  **Run the installer:**
     Once the download is complete, run the executable file. Follow the prompts in the Google Cloud SDK Setup wizard.
 ![[2.png]]
