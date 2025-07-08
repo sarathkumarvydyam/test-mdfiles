@@ -27,17 +27,23 @@ The `gcloud` CLI is the primary tool for managing your Google Cloud resources fr
 
 2.  **Run the installer:**
     Once the download is complete, run the executable file. Follow the prompts in the Google Cloud SDK Setup wizard.
-![[2.png]]
+![2](https://github.com/user-attachments/assets/24bb07d0-8cab-4aec-8395-7c24abd1d5ce)
 
-![[3.png]]
 
-![[4.png]]
+![3](https://github.com/user-attachments/assets/c0da6151-c86e-4c2f-bc87-e5aa99b66af9)
 
-![[5.png]]
 
-![[6.png]]
+![4](https://github.com/user-attachments/assets/57baaf00-14bd-46b9-8a5c-1cf37071b96b)
 
-![[7.png]]
+
+![5](https://github.com/user-attachments/assets/d5692d87-cc0c-4280-8861-c50a77048cbe)
+
+
+![6](https://github.com/user-attachments/assets/2b589f3c-b4e0-45ae-8b2c-4209131ea93f)
+
+
+![7](https://github.com/user-attachments/assets/bdf33cc1-d734-4693-9586-3d48db8adc04)
+
 
 
 
@@ -48,12 +54,14 @@ The `gcloud` CLI is the primary tool for managing your Google Cloud resources fr
     *   **Destination Folder:** Choose the installation directory. The default is usually `C:\Program Files\Google\Cloud SDK`. Click "Next".
     *   **Setup Type:** Select "Typical" for a standard installation. Click "Next".
     *   **Components:** Ensure "gcloud CLI" is selected. You can also choose to install other components like `gsutil` (for Cloud Storage) and `bq` (for BigQuery) if needed. Click "Install".
+
 4.  **Complete the installation:**
     After the installation finishes, you will typically be prompted to initialize the SDK. Check "Start Google Cloud SDK Shell" and "Run `gcloud init`" to proceed with the initial configuration. Click "Finish".
 
 5.  **Verify the installation:**
     Open a new command prompt or PowerShell window and type `gcloud version`. You should see the installed `gcloud` CLI version, confirming a successful installation.
-    ![[9.png]]
+![9](https://github.com/user-attachments/assets/d7f86361-4f34-44b4-a12e-5909a7a9ecca)
+
 
 ### Step 02. Installing `gcloud` CLI on Mac
 
@@ -89,7 +97,8 @@ The `gcloud` CLI is the primary tool for managing your Google Cloud resources fr
 
 After installing the `gcloud` CLI, you need to authenticate your Google account and configure a default GCP project to work with.
 
-![[8.png]]
+![8](https://github.com/user-attachments/assets/8b4b56ce-bd08-4a2e-ac63-0d55036d7761)
+
 #### 03. Authenticating Your Google Account
 
 To authenticate the `gcloud` CLI with your Google account, use the `gcloud auth login` command:
@@ -102,11 +111,13 @@ This command will open a web browser, prompting you to sign in with your Google 
 
 
 
-![[10.png]]
+![10](https://github.com/user-attachments/assets/b086f412-591f-43c3-9592-1245e4d596d3)
 
 
 
-![[11.png]]
+
+![11](https://github.com/user-attachments/assets/1585ea5b-4075-4a31-91a3-7689acbaf1bd)
+
 
 
 
@@ -125,7 +136,8 @@ After authentication, you can set a default GCP project for your `gcloud` CLI. T
     ```bash
     gcloud projects list
     ```
-![[12.png]]
+![12](https://github.com/user-attachments/assets/6df6b7b1-59f3-4bf4-96a7-4f7ddbef8aef)
+
 2.  **Set a default project:**
     Use the `gcloud config set project` command, replacing `YOUR_PROJECT_ID` with the actual ID of your GCP project:
     ```bash
@@ -133,14 +145,17 @@ After authentication, you can set a default GCP project for your `gcloud` CLI. T
     ```
     You can find your project ID in the GCP Console dashboard or by using the `gcloud projects list` command.
 
-![[13.png]]
-![[14.png]]
+![13](https://github.com/user-attachments/assets/280ab49a-c7e5-4d99-af57-dd7c233abcad)
+
+![14](https://github.com/user-attachments/assets/3f62ddfb-e949-4c98-a214-20823615527c)
+
 3.  **Verify current configuration:**
     To check your current active account and project, use:
     ```bash
     gcloud config list
     ```
-![[15.png]]
+![15](https://github.com/user-attachments/assets/410f89ca-39b0-418d-a4a9-9a52de877573)
+
 
 
 
