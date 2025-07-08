@@ -3,8 +3,11 @@
 
 
 1.  [Google Cloud Platform (GCP) Access & Configuration](#google-cloud-platform-gcp-access--configuration)
+   
     1.1. [Setting up GCP CLI (gcloud)](#setting-up-gcp-cli-gcloud)
+    
     1.2. [Authenticating Accounts and Configuring Projects](#authenticating-accounts-and-configuring-projects)
+    
     1.3. [Gcloud Cli commands](gcloud-cli-commands)
 
 
