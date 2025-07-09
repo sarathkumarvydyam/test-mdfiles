@@ -161,7 +161,7 @@ After authentication, you can set a default GCP project for your `gcloud` CLI. T
 
 
 
-## step 04 Google CLI Commands
+## Step 04 Google CLI Commands
 
 
 - [`gcloud init`](https://cloud.google.com/sdk/gcloud/reference/init): Initialize, authorize, and configure the gcloud CLI.
